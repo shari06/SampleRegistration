@@ -58,7 +58,6 @@ export class ConfigurationComponent implements OnInit {
   onSave() {
     if (this.configValues.length > 0) {
       this.configuration = new Configuration(this.configValues);
-      debugger;
       this.configApi.sendFormData(JSON.stringify(this.configuration)).subscribe(
         (response) => console.log('Success! ', response),
         (error) => console.error('Error: ', error)

@@ -8,6 +8,6 @@
         /// <summary>
         /// list of configuration value
         /// </summary>
-        public List<FieldInfo> FieldInformations { get; set; }
+        public List<ConflgValues> FieldInformations { get; set; }
     }
 }

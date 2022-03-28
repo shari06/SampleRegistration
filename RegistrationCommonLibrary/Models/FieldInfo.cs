@@ -3,10 +3,10 @@
     /// <summary>
     /// Filed Information
     /// </summary>
-    public class FieldInfo
+    public class ConflgValues
     {
         /// <summary>
-        /// Field name
+        /// Field name {"FieldName":"ddd","FieldType":"Text","FieldInfo":"ddd"}
         /// </summary>
         public string FieldName { get; set; }
 
@@ -18,7 +18,7 @@
         /// <summary>
         /// Some user data for example we can store key value pair values
         /// </summary>
-        public string UserData { get; set; }
+        public string FieldInfo { get; set; }
 
 
     }
